@@ -14,6 +14,7 @@ def convert_to_emoji(text):
       "hello": "👋",
       "world": "🌎",
       "python": "🐍",
+      "bard": "🤖",
   }
 
   converted_text = ""
@@ -35,3 +36,8 @@ def main():
 
 if __name__ == "__main__":
   main()
+
+  '''
+  This code first creates a dictionary that maps words to their corresponding emojis. Then, it prompts the user to enter a text. The code then converts the text to emoji using the convert_to_emoji() function. However, before converting the word, the code first removes any spaces from the beginning and end of the word. This is done using the strip() method. Finally, the code prints the converted text to the console.
+
+  '''
